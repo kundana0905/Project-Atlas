@@ -1,132 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A personal profile card for Kundana, a front-end developer.">
-  <title>Kundana | Profile</title>
-  <style>
-    :root {
-      color-scheme: light;
-      font-family: Arial, Helvetica, sans-serif;
-      color: #172033;
-      background: #f2f5fb;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      min-height: 100vh;
-      margin: 0;
-      display: grid;
-      place-items: center;
-      padding: 24px;
-    }
-
-    .profile-card {
-      width: min(100%, 440px);
-      padding: 36px;
-      border: 1px solid #e3e8f2;
-      border-radius: 20px;
-      background: #ffffff;
-      box-shadow: 0 16px 40px rgb(23 32 51 / 10%);
-    }
-
-    .profile-card__eyebrow {
-      margin: 0 0 10px;
-      color: #5263d9;
-      font-size: 0.8rem;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: clamp(2rem, 8vw, 2.6rem);
-    }
-
-    .profile-card__role {
-      margin: 8px 0 24px;
-      color: #5c667a;
-      font-size: 1.1rem;
-    }
-
-    .profile-card__intro {
-      margin: 0;
-      line-height: 1.7;
-    }
-
-    .profile-card__section-title {
-      margin: 28px 0 12px;
-      font-size: 1rem;
-    }
-
-    .profile-card__skills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    .profile-card__skill {
-      padding: 8px 12px;
-      border-radius: 999px;
-      background: #eef0ff;
-      color: #3948b8;
-      font-size: 0.9rem;
-    }
-
-    .profile-card__link {
-      display: inline-block;
-      margin-top: 28px;
-      color: #3948b8;
-      font-weight: 700;
-      text-decoration-thickness: 2px;
-      text-underline-offset: 4px;
-    }
-
-    .profile-card__link:focus-visible {
-      outline: 3px solid #8590ff;
-      outline-offset: 4px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Atlas Profile</title>
 </head>
 <body>
-  <main>
-    <article class="profile-card" aria-labelledby="profile-name">
-      <p class="profile-card__eyebrow">Profile</p>
-      <h1 id="profile-name">Kundana</h1>
-      <p class="profile-card__role">Front-End Developer</p>
 
-      <p class="profile-card__intro">
-        I enjoy creating accessible, responsive web experiences and turning
-        thoughtful ideas into clean, user-friendly interfaces.
-      </p>
+    <main>
+        <section>
+            <h1>Your Name</h1>
 
-      <section aria-labelledby="skills-heading">
-        <h2 class="profile-card__section-title" id="skills-heading">Skills</h2>
-        <ul class="profile-card__skills">
-          <li class="profile-card__skill">HTML</li>
-          <li class="profile-card__skill">CSS</li>
-          <li class="profile-card__skill">JavaScript</li>
-        </ul>
-      </section>
+            <h2>AI & Future Technologies Student</h2>
 
-      <a
-        class="profile-card__link"
-        href="https://github.com/kundana0905"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Visit Kundana's GitHub profile"
-      >
-        GitHub profile
-      </a>
-    </article>
-  </main>
+            <p>
+                I am a first-year student interested in technology,
+                programming, and building useful applications.
+            </p>
+
+            <h3>Skills</h3>
+
+            <ul>
+                <li>Python</li>
+                <li>HTML & CSS</li>
+                <li>Git & GitHub</li>
+            </ul>
+
+           <a href="https://github.com/" target="_blank" aria-label="Visit my GitHub profile">
+                
+            </a>
+        </section>
+    </main>
+
 </body>
 </html>
